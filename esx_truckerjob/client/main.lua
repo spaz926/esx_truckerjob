@@ -564,19 +564,27 @@ Citizen.CreateThread(function()
 end)
 
 -- CREATE BLIPS
-Citizen.CreateThread(function()
-	local blip = AddBlipForCoord(Config.Cloakroom.CloakRoom.Pos.x, Config.Cloakroom.CloakRoom.Pos.y, Config.Cloakroom.CloakRoom.Pos.z)
-  
-	SetBlipSprite (blip, 67)
-	SetBlipDisplay(blip, 4)
-	SetBlipScale  (blip, 1.2)
-	SetBlipColour (blip, 5)
-	SetBlipAsShortRange(blip, true)
+function UpdateBlips()
+	Citizen.CreateThread(function()
+		local blip = AddBlipForCoord(Config.Cloakroom.CloakRoom.Pos.x, Config.Cloakroom.CloakRoom.Pos.y, Config.Cloakroom.CloakRoom.Pos.z)
 
-	BeginTextCommandSetBlipName("STRING")
-	AddTextComponentString(_U('blip_job'))
-	EndTextCommandSetBlipName(blip)
-end)
+		if IsJobTrucker() then
+			SetBlipSprite (blip, 67)
+			SetBlipDisplay(blip, 4)
+			SetBlipScale  (blip, 0.8)
+			SetBlipColour (blip, 5)
+			SetBlipAsShortRange(blip, true)
+
+			BeginTextCommandSetBlipName("STRING")
+			AddTextComponentString(_U('blip_job'))
+			EndTextCommandSetBlipName(blip)
+		else
+			if DoesBlipExist(blip) then
+				RemoveBlip(blip)
+			end
+		end
+	end)
+end
 
 -------------------------------------------------
 -- Fonctions
