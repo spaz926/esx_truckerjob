@@ -2,7 +2,7 @@ Config              = {}
 Config.DrawDistance = 100.0
 Config.MaxDelivery	= 10
 Config.TruckPrice	= 1500
-Config.Locale       = 'fr'
+Config.Locale       = 'en' -- Supported languages: de, en, fr
 
 Config.Trucks = {
 	"mule3",
@@ -44,7 +44,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 150
 		},
-	-- a coté des flic
+	-- a cotï¿½ des flic
 	Delivery2LS = {
 			Pos   = {x = 451.4836, y = -899.0954, z = 27.5},
 			Color = {r = 204, g = 204, b = 0},
