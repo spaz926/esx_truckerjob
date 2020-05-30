@@ -3,7 +3,7 @@ Locales['en'] = {
 	['job_wear']				= 'workwear',
 	['citizen_wear']			= 'civilian clothes',
 	['vehiclespawner']			= 'choice of truck', 
-	['already_have_truck']		= 'we have allready provided a truck!', 
+	['already_have_truck']		= 'we have already provided a truck!',
 	['delivery']				= 'press ~INPUT_PICKUP~ to deliver.',
 	['not_your_truck']			= 'it is not the truck that you have provided !',
 	['not_your_truck2']			= 'you must be in the truck that you were provided with !',
@@ -26,4 +26,5 @@ Locales['en'] = {
 	['blip_delivery']			= 'walker Logistics : Delivery',
 	['blip_goal']				= 'walker Logistics : Delivery point',
 	['blip_depot']				= 'walker Logistics : depot',
+	['cancel_mission'] 			= 'Cancel Mission'
 }
