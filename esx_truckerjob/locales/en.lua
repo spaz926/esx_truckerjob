@@ -26,5 +26,5 @@ Locales['en'] = {
 	['blip_delivery']			= 'Walker Logistics: Delivery',
 	['blip_goal']				= 'Walker Logistics: Delivery Point',
 	['blip_depot']				= 'Walker Logistics: Depot',
-	['cancel_mission'] 			= 'Cancel Mission'
+	['cancel_mission'] 			= 'press ~INPUT_PICKUP~ to cancel'
 }

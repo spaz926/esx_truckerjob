@@ -33,9 +33,9 @@ Config.Zones = {
 		},
 }
 
-Config.Livraison = {
+Config.Delivery = {
 -------------------------------------------Los Santos
-	-- Strawberry avenue et Davis avenue
+	-- Strawberry avenue and Davis avenue
 	Delivery1LS = {
 			Pos   = {x = 121.0655, y = -1488.4984, z = 28.0},
 			Color = {r = 204, g = 204, b = 0},
@@ -44,7 +44,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 150
 		},
-	-- a cot� des flic
+	-- next to the cop
 	Delivery2LS = {
 			Pos   = {x = 451.4836, y = -899.0954, z = 27.5},
 			Color = {r = 204, g = 204, b = 0},
@@ -53,7 +53,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 200
 		},
-	-- vers la plage
+	-- to the beach
 	Delivery3LS = {
 			Pos   = {x = -1129.4438, y = -1607.2420, z = 3.9},
 			Color = {r = 204, g = 204, b = 0},
@@ -71,7 +71,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 300
 		},
-	-- popular street et el rancho boulevard
+	-- popular street at el rancho boulevard
 	Delivery5LS = {
 			Pos   = {x = 809.5350, y = -2024.2238, z = 28.0},
 			Color = {r = 204, g = 204, b = 0},
@@ -80,7 +80,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 350
 		},
-	--Alta street et las lagunas boulevard
+	--Alta street MissionDeliverySelect las lagunas boulevard
 	Delivery6LS = {
 			Pos   = {x = 63.2668, y = -227.9965, z = 50.0},
 			Color = {r = 204, g = 204, b = 0},
@@ -89,7 +89,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 150
 		},
-	--Rockford Drive Noth et boulevard del perro
+	--Rockford Drive North MissionDeliverySelect boulevard del perro
 	Delivery7LS = {
 			Pos   = {x = -1338.6923, y = -402.4188, z = 34.9},
 			Color = {r = 204, g = 204, b = 0},
@@ -98,7 +98,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 200
 		},
-	--Rockford Drive Noth et boulevard del perro
+	--Rockford Drive Noth MissionDeliverySelect boulevard del perro
 	Delivery8LS = {
 			Pos   = {x = 548.6097, y = -206.3496, z = 52.5},
 			Color = {r = 204, g = 204, b = 0},
@@ -144,7 +144,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 350
 		},
-	-- Algonquin boulevard et cholla springs avenue
+	-- Algonquin boulevard and cholla springs avenue
 	Delivery3BC = {
 			Pos   = {x =1685.1549, y = 3752.0849, z = 33.0},
 			Color = {r = 204, g = 204, b = 0},
@@ -189,7 +189,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 350
 		},
-	-- Paleto boulevard et Procopio drive
+	-- Paleto boulevard MissionDeliverySelect Procopio drive
 	Delivery8BC = {
 			Pos   = {x = 107.9181, y = 6605.9750, z = 30.8},
 			Color = {r = 204, g = 204, b = 0},
@@ -198,7 +198,7 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 400
 		},
-	-- Marina drive et joshua road
+	-- Marina drive and joshua road
 	Delivery9BC = {
 			Pos   = {x = 916.6915, y = 3568.7783, z = 32.7},
 			Color = {r = 204, g = 204, b = 0},
@@ -216,8 +216,8 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 500
 		},
-	
-	RetourCamion = {
+
+	ReturnTruck = {
 			Pos   = {x = 162.5408, y = -3188.7770, z = 4.5},
 			Color = {r = 204, g = 204, b = 0},
 			Size  = {x = 5.0, y = 5.0, z = 3.0},
@@ -225,8 +225,8 @@ Config.Livraison = {
 			Type  = 1,
 			Paye = 0
 		},
-	
-	AnnulerMission = {
+
+	CancelMission = {
 			Pos   = {x = 162.0788, y = -3210.7067, z = 4.5},
 			Color = {r = 204, g = 204, b = 0},
 			Size  = {x = 5.0, y = 5.0, z = 3.0},
